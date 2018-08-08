@@ -1,0 +1,11 @@
+<div class="col-md-12" *ngIf="!externalLink">
+    <cpac-top-menu></cpac-top-menu>
+</div>
+
+<div class="col-md-2" *ngIf="!externalLink">
+    <cpac-left-menu></cpac-left-menu>
+</div>
+
+<div [ngClass]="{'col-md-10': !externalLink, 'col-md-12': externalLink}">
+    <router-outlet></router-outlet>
+</div>
