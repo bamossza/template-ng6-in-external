@@ -7,6 +7,7 @@ import {HomeComponent} from './home/home.component';
 import {ProductsComponent} from './products/products.component';
 import {LeftMenuComponent} from './layouts/left-menu/left-menu.component';
 import {TopMenuComponent} from './layouts/top-menu/top-menu.component';
+import { IframeComponent } from './iframe/iframe.component';
 
 @NgModule({
     declarations: [
@@ -14,7 +15,8 @@ import {TopMenuComponent} from './layouts/top-menu/top-menu.component';
         HomeComponent,
         ProductsComponent,
         LeftMenuComponent,
-        TopMenuComponent
+        TopMenuComponent,
+        IframeComponent
     ],
     imports: [
         BrowserModule,

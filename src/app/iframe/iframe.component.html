@@ -1,0 +1,12 @@
+<div class="page-header">
+    <p class="lead">
+        Page - iFrame - {{dataRoute.title}}
+    </p>
+</div>
+<iframe id="frame_main"
+        name="frame_main"
+        [src]="pageURL()"
+        frameborder="0"
+        style="display: block; width: 100%; height: 100%;"
+        scrolling="auto" allowfullscreen #mainIframe>
+</iframe>
