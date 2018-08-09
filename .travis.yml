@@ -30,7 +30,7 @@ after_success:
   - firebase deploy --non-interactive --token "${FIREBASE_TOKEN}"
 
 # deploy project
-#deploy:
-#  provider: firebase
-#  api_key:
-#    secure: "YOUR ENCRYPTED API KEY"
+deploy:
+  provider: firebase
+  api_key:
+    secure: "AIzaSyA6nsPw9LfU6Mwk41dyZfCWuRqDcCHwtgM"
