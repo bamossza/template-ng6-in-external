@@ -35,6 +35,13 @@ const routes: Routes = [
             title: 'กำหนดตัวแทน',
             url: 'https://test-bluenet.scg.com/dashboard/#/delegation',
         }
+    },
+    {
+        path: 'google', component: IframeComponent,
+        data: {
+            title: 'Google',
+            url: 'https://www.google.co.th/',
+        }
     }
 ];
 
