@@ -33,4 +33,4 @@ after_success:
 deploy:
   provider: firebase
   api_key:
-    secure: "AIzaSyA6nsPw9LfU6Mwk41dyZfCWuRqDcCHwtgM"
+    secure: ${FIREBASE_API_KEY}
