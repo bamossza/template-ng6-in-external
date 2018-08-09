@@ -37,10 +37,10 @@ const routes: Routes = [
         }
     },
     {
-        path: 'google', component: IframeComponent,
+        path: 'bamossza', component: IframeComponent,
         data: {
-            title: 'Google',
-            url: 'https://www.google.co.th/',
+            title: 'Bamossza',
+            url: 'https://www.bamossza.com',
         }
     }
 ];
